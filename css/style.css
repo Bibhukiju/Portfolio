@@ -16,6 +16,7 @@
     #navigation-bar ul {
       border-radius: 4px;
       overflow: hidden;
+      
     }
     #navigation-bar li {
       float: left;
@@ -62,4 +63,15 @@
 	  height: 40%;
       width: 30%;
       margin: 100;
+    }
+    p{
+      color:green;
+      
+    }
+    .vl {
+      border-left: 1px solid white;
+      height: 500px;
+      float: left;
+      margin-left: 50;
+      margin-right: 50;
     }
