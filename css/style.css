@@ -6,10 +6,11 @@ body {
 }
 
 #menu-nav {
-  max-width: 1000px;
-  margin: 13px auto;
+  width: 100%;
+  align-self: center;
+  position: fixed;
   background-color: black;
-  border-radius: 4px;
+  border-radius: 5%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
@@ -90,9 +91,20 @@ h1 {
   background: #161718;
   box-shadow: inset 20px 20px 26px #131414, inset -20px -20px 26px #191a1c;
 }
-a{
+a {
   color: green;
 }
-li{
+li {
   color: white;
+}
+h3{
+  color: #ffff;
+}
+#boxer
+{
+  margin-top: 60;
+  margin-right: 10;
+  height: 33%;
+  width: 50%;
+  float: left;
 }
