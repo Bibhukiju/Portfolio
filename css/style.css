@@ -65,13 +65,17 @@
       margin: 100;
     }
     p{
-      color:green;
+      color:white;
       
     }
     .vl {
       border-left: 1px solid white;
-      height: 500px;
+      height: 70%;
       float: left;
       margin-left: 50;
       margin-right: 50;
+    }
+    .checked
+    {
+      color: green;
     }
