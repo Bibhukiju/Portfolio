@@ -1,238 +1,215 @@
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Bibhu Kiju</title>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Roboto:300"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bibhu kiju</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="mediaq.css">
+</head>
 
-  <body>
-    <div style="height: 100%; width: 100%;">
-      <div id="menu-nav">
-        <div id="navigation-bar">
-          <ul>
-            <li>
-              <a href="#"><i class="fa fa-home"></i><span>Home</span></a>
-            </li>
-            <li>
-              <a href="#"
-                ><i class="fa fa-briefcase"></i><span>Services</span></a
-              >
-            </li>
-            <li>
-              <a href="#"><i class="fa fa-user"></i><span>About</span></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa fa-book"></i><span>Contact</span></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa fa-book"></i> <span>Blog</span></a>
-            </li>
-          </ul>
+<body>
+  <header>
+    <div class="container">
+      <nav class="flex items-center justify-between">
+        <div class="left flex items-center">
+          <div class="branding"></div>
+          <div>
+            <a href="#">Home</a>
+            <a href="#abt">About</a>
+            <a href="#serve">Services</a>
+            <a href="#skill">Skills</a>
+          </div>
+        </div>
+        <div class="right">
+          <button class="btn btn-primary">Contact</button>
+        </div>
+      </nav>
+      <div class="hero flex items-center justify-between">
+        <div class="left flex-1 justify-center">
+          <img src="./images/face.jpg" alt="" />
+        </div>
+        <div class="right flex-1">
+          <h6>Bibhu Kiju</h6>
+          <h1>Hello <span>World!</span></h1>
+          <p>
+            I am a ever-learner who always believes on learning and sharing I
+            enjoy to learn new tech stuffs and ready to dive into depth if i
+            ever started and want to explore tech stuff more. Despite of
+            working alone I love to work by collaborating with team
+          </p>
+          <div><button class="btn btn-secondary">Download CV</button></div>
         </div>
       </div>
-      <div class="mydesc">
-        <h1 style="color: green;">
-          Hello World!
-        </h1>
-        <p style="color: white;">
+    </div>
+  </header>
+  <section class="about" id="abt">
+    <div class="container flex items-center">
+      <div class="flex-1">
+        <img class="about-me-img" src="./images/itsme0.jpg" alt="" />
+      </div>
+      <div class="flex-1">
+        <h1>About <span>Me</span></h1>
+
+        <h3><span>Hello World!</span>, I am Bibhu Kiju</h3>
+        <p>
           I am a ever-learner who always believes on learning and sharing I
-          enjoy to learn new tech stuffs and ready to dive into depth if i ever
-          started and want to explore tech stuff more. Despite of working alone
-          I love to work by collaborating with team
+          enjoy to learn new tech stuffs and ready to dive into depth if i
+          ever started and want to explore tech stuff more. Despite of
+          working alone I love to work by collaborating with team
         </p>
-      </div>
-    </div>
-    <div style="height: 100%; width: 100%;">
-      <div style="height: 60%; width: 100%;">
-        <h1 style="color: white; margin-left: 50; margin-top: 10;">
-          Skills
-        </h1>
-        <div>
-          <div style="margin-left: 10; float: left;">
-            <h1 style="color: white;">Flutter</h1>
-          </div>
-          <div class="vl"></div>
-          <div style="padding: 30; float: left;">
-            <li>
-              <p class="checked">
-                <i class="fa fa-check"></i
-                ><span>&nbsp &nbsp Widget of Flutter</span>
-              </p>
-            </li>
-            <li>
-              <p class="checked">
-                <i class="fa fa-check"></i
-                ><span>&nbsp &nbspResponsive Page</span>
-              </p>
-            </li>
-            <li>
-              <p class="checked">
-                <i class="fa fa-check"></i
-                ><span>&nbsp &nbspAPI Integration</span>
-              </p>
-            </li>
-            <li>
-              <p class="checked">
-                <i class="fa fa-check"></i
-                ><span>&nbsp &nbspFireBase Integration</span>
-              </p>
-            </li>
-            <li>
-              <p class="checked">
-                <i class="fa fa-check" id="checked"></i
-                ><span>&nbsp &nbspLocal Storage Integration</span>
-              </p>
-            </li>
-            <li>
-              <p style="color: white;">
-                <i class="fa fa-times"></i
-                ><span style="text-decoration: line-through;"
-                  >&nbsp &nbspAmimation</span
-                >
-              </p>
-            </li>
-            <li>
-              <p style="color: white;">
-                <i class="fa fa-times"></i
-                ><span style="text-decoration: line-through;"
-                  >&nbsp &nbspState Management</span
-                >
-              </p>
-            </li>
-          </div>
-          <div class="vl"></div>
-          <div style="margin-left: 10; float: left;">
-            <h1 style="color: white;">Web Development</h1>
-          </div>
-          <div class="vl"></div>
-          <div style="width: 25%; float: left;">
-            <ul>
-              <h3 style="color: White;">Front-end</h3>
-              <li>
-                <p class="checked">
-                  <i class="fa fa-check"></i><span>&nbsp Basics of HTML</span>
-                </p>
-                <p class="checked">
-                  <i class="fa fa-check"></i><span>&nbsp Basics of CSS</span>
-                </p>
-              </li>
-              <h3 style="color: White;">Back-end</h3>
-              <li>
-                <p class="checked">
-                  <i class="fa fa-check"></i
-                  ><span>&nbsp Basic knowledge of PHP</span>
-                </p>
-                <ol>
-                  <p>
-                    <i class="fa fa-asterisk"
-                      >&nbsp CRUD operation in MYSQL DB</i
-                    >
-                  </p>
-                  <p>
-                    <i class="fa fa-asterisk">&nbsp Basics Databse Design</i>
-                  </p>
-                </ol>
-              </li>
-            </ul>
-          </div>
+        <p>
+          Currently studying BACHELOR OF SCIENCE IN COMPUTER SCIENCE AND
+          INFORMATION TECHNOLOGY
+          3rd semester (running)
+        </p>
+        <div class="social justify-center">
+          <a href="https://facebook.com/itsbibhu"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
         </div>
       </div>
-      <div style="margin-left: 40; text-align: center;">
-        <h2 style="color: white; text-decoration: underline;">Other Skills</h2>
-        <p>Good knowledge on Four pillars of OOP</p>
-        <p>DART</p>
-        <p>C / c++</p>
-        <p>Python</p>
-        <p>Git and Github</p>
-        <p>Good knowledge of Ms Word, Powerpoint,Excel</p>
-      </div>
     </div>
-    <div style="height: 100%; width: 100%;">
-      <h1>
-        Projects
+  </section>
+  <section class="services" id="serve">
+    <div class="container">
+      <h1 class="section-heading"><span>My</span> services</h1>
+      <p>
+        I provide high standard clean ui and architecture Flutter app to your
+        business solutios.
+      </p>
+      <div class="card-wrapper">
+        <div class="card">
+          <img src="./images/flutterlogo.png" alt="" />
+          <h2>Flutter</h2>
+          <p>Clean crossplatform app using flutter Framework</p>
+        </div>
+        <div class="card">
+          <img src="./images/html.jpg" alt="" />
+          <h2>Web development</h2>
+          <p>Clean UI frontend website with clear documentation</p>
+        </div>
+      </div>
+  </section>
+  <section class="avail">
+    <h1>
+      I am available for a job !
+    </h1>
+    <p>I can asure you with timely, well developed,clean archetecture and UI flutter app</p>
+    <a href="./Resume.pdfx" download=""><button class="btn btn-primary">Download CV</button></a>
+  </section>
+  <section class="skills" id="skill">
+    <div class="container">
+      <h1 class="section-heading">
+        <span>My </span>Projects
       </h1>
-      <div>
-        <div id="boxer">
-          <img src="./images/minista.jpg" alt=""
-          style="max-width: 100%; max-height: 100%;"
-          >
+      <p>Some of my projects using Flutter</p>
+      <div class="slider">
+        <div class="slide">
+          <h1> <span>Minista(Flutter)</span></h1>
+          <h2>
+            Features
+          </h2>
+          <li>
+            Google authentication for login and logout.
+          </li>
+          <li>Users can post Image with caption and Auto detected location</li>
+          <li>
+            Users can follow other users to get their activity in the newsfeed.
+          </li>
+          <li>User can like others photo an also can comment on it
+          </li>
+          <li>
+            Notify the user if any other user likes or commented on his/her post
+          </li>
+          <li>
+            Users can also delete his/her post
+          </li>
+        </div>
+        <div class="slide">
+          <img src="./images/html.jpg" alt="">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam dolores hic, optio maxime inventore quos pariatur quidem dignissimos, incidunt esse ad similique dolorum adipisci corrupti nihil eveniet nesciunt libero expedita!</p>
+          <span>Minista(Flutter)</span>
         </div>
       </div>
-      <br />
-      <div>
-        <h2>
-          <a href="https://www.github.com/bibhukiju/mysociety">Minista</a>
-        </h2>
-        <ul>
-          <li>
-            ● Google authentication(login/logout) with google account
-          </li>
-          <br />
-          <li>
-            ● Users can post Image with caption and Auto detected location
-          </li>
-          <br />
-          <li>
-            ● Users follow other users to get their activity in the newsfeed
-          </li>
-          <br />
-          <li>
-            ● User can like others photo an also can comment on it
-          </li>
-          <br />
-          <li>
-            ● Users can also delete his/her post.
-          </li>
-          <br />
-          <li>
-            ● Notify the user if any other user likes or commented on his/her
-            post
-          </li>
-        </ul>
+      <div class="slider-dots"></div>
+    </div>
+  </section>
+  <section class="contact">
+    <div class="section-heading">
+      <h1><span>Contact</span> Me</h1>
+    </div>
+    <p>For Clean flutter apps and web-development (front-end)</p>
+    <div class="card-wrapper">
+      <div class="card">
+        <i class="fa fa-phone"></i>
+        <h2>call me on </h2>
+        <h6>+977 9863849224</h6>
       </div>
-      <hr style="height: 1px;" />
-      <div style="float: left; width: 45%;">
-        <h2>
-          <a href="https://www.github.com/bibhukiju/xpensy">Xpensy</a>
-        </h2>
-        <ul>
-          <li>
-            ● Google authentication(login/logout) with google account
-          </li>
-          <br />
-          <li>
-            ● Users can post Image with caption and Auto detected location
-          </li>
-          <br />
-          <li>
-            ● Users follow other users to get their activity in the newsfeed
-          </li>
-          <br />
-          <li>
-            ● User can like others photo an also can comment on it
-          </li>
-          <br />
-          <li>
-            ● Users can also delete his/her post.
-          </li>
-          <br />
-          <li>
-            ● Notify the user if any other user likes or commented on his/her
-            post
-          </li>
-        </ul>
+      <div class="card">
+        <i class="fa fa-envelope"></i>
+        <h2>email me on </h2>
+        <h6>bibhukiju@gmail.com</h6>
       </div>
-      <div id="boxer">
-        <div style="background-color: white; width: 100%; height: 100%; float: right;"></div>
+      <div class="card">
+        <i class="fa fa-map"></i>
+        <h2>Address</h2>
+        <h6>Suryabinayak,bhaktapur</h6>
+        <h6>Nepal</h6>
       </div>
     </div>
-  </body>
-</html>
+    <form action="index.php" method="POST">
+      <div class="input-wrap">
+        <input type="text" placeholder="Yourname" name="name">
+        <input type="email" placeholder="your email" name="email">
+      </div>
+      <div class="input-wrap-2">
+        <input type="text" placeholder="your subject" name="subject">
+        <textarea name="message" id="" cols="30" rows="10" placeholder="your message"></textarea>
+      </div>
+      <div class="btn-wrapper">
+        <input type="submit" class="btn btn-primary" name="send" value="Send Message">
+      </div>
+    </form>
+  </section>
+  <footer>
+    <h1>Bibhu Kiju</h1>
+    <div class="footer-socials justify-center">
+
+      <a href="#">
+        <i class="fa fa-home"></i>
+      </a>
+      <a href="https://www.facebook.com/itsbibhu">
+        <i class="fa fa-facebook"></i>
+      </a>
+      <a href="https://twitter.com/BibhuKiju">
+        <i class="fa fa-twitter"></i>
+      </a>
+      <a href="https://www.instagram.com/bibhu_kiju/">
+        <i class="fa fa-instagram"></i>
+      </a>
+      <a href="https://www.github.com/bibhukiju"><i class="fa fa-github"></i></a>
+    </div>
+  </footer>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>   
+<?php
+if (isset($_POST['send'])) {
+  $name = $_POST['name'];
+  $email = $_POST['email'];
+  $subject = $_POST['subject'];
+  $message = $_POST['message'];
+  $connection = mysqli_connect("localhost", "root", "", "messages");
+  $qry = "INSERT INTO message(name,email,subject,message)VALUES('$name','$email','$subject','$message')";
+  $result = mysqli_query($connection, $qry);
+}
+?>
