@@ -1,0 +1,264 @@
+:root {
+  --black_bg: #100f17;
+  --primary_color: #0bbea1;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  all: unset;
+}
+li {
+  list-style: none;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary_color);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--black_bg);
+}
+
+::-moz-scrollbar {
+  width: 2px;
+}
+
+::-moz-scrollbar-thumb {
+  background-color: var(--primary_color);
+}
+
+::-moz-scrollbar-track {
+  background-color: var(--primary_color);
+}
+
+body {
+  background: var(--black_bg);
+}
+
+p,
+h1,
+h3 {
+  color: var(--white);
+}
+nav {
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+}
+nav li p {
+  font-size: 2rem;
+  padding: 0 15px;
+}
+
+nav li p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: var(--primary_color);
+  transition: 0.5s all ease;
+}
+
+.hero {
+  height: 90vh;
+}
+.hero .hero-details,
+.hero .image-holder {
+  flex: 1;
+}
+.hero .hero-details {
+  justify-content: center;
+  align-items: start;
+}
+
+.hero .hero-details .hero-hello {
+  color: var(--primary_color);
+  font-size: 32px;
+  padding: 10px 30px;
+  border-radius: 20px 20px 20px 0px;
+}
+.hero .hero-details .hero-hello:hover {
+  background-color: var(--primary_color);
+  color: var(--white);
+  cursor: pointer;
+  transition: 0.5s all ease;
+}
+.hero .hero-details .hero-name {
+  margin: 15px 0;
+  font-size: 3rem;
+}
+.hero .hero-details .hero-position {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.hero .hero-details .hero-description {
+  margin: 10px 0;
+  text-align: justify;
+  font-size: 20px;
+}
+.hero .hero-details .hero-social_links {
+  width: 100%;
+}
+.hero .hero-details .hero-social_links .hero-info--icon {
+  margin-top: 10px;
+  font-size: 2rem;
+  padding: 0 10px;
+}
+.hero .hero-details .hero-social_links .hero-info--icon:hover {
+  cursor: pointer;
+  color: var(--primary_color);
+}
+
+.hero .hero-details .hero-social_links {
+  color: white;
+}
+
+.hero .image-holder {
+  justify-content: center;
+  align-items: center;
+}
+.hero .image-holder img {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+.hero .image-holder img:hover {
+  border: 2px solid var(--primary_color);
+  cursor: pointer;
+  transform: translateX(10px);
+}
+.skills h1 {
+  margin-bottom: 3rem;
+}
+
+.skills .skillsHolder .skill-div {
+  border: 1px solid var(--primary_color);
+  padding: 1rem 2rem;
+
+  background: linear-gradient(
+    to top,
+    var(--black_bg) 50%,
+    var(--primary_color) 50%
+  );
+  background-size: 100% 200%;
+  background-position: 0 100%;
+  transition: background-position 0.3s ease;
+  cursor: pointer;
+  color: var(--white);
+}
+
+.skills .skill-div:hover {
+  background-position: 0 0;
+  color: var(--white);
+}
+.skills .skills-desc {
+  justify-content: space-around;
+  padding-bottom: 3rem;
+}
+.skills .skills-desc .skills-desc--chart,
+.skills .skills-desc .skills-desc--content {
+  flex: 1;
+}
+
+.skills .skills-desc .skills-desc--content {
+  text-align: justify;
+}
+.skills .skills-desc .skills-desc--content p {
+  margin: 2rem 0;
+  font-size: 20px;
+}
+.skills .skills-desc .skills-desc--chart {
+  justify-content: center;
+}
+.skills .skills-desc .sizedbox {
+  width: 50px;
+}
+#skillGraph {
+  height: 600px;
+  width: 600px;
+}
+
+/* ? Portfolio section  */
+.portfolio .tabBar {
+  margin-top: 10px;
+}
+.portfolio-div {
+  border: 1px solid var(--primary_color);
+  padding: 1rem 2rem;
+  background: linear-gradient(
+    to top,
+    var(--black_bg) 50%,
+    var(--primary_color) 50%
+  );
+  background-size: 100% 200%;
+  background-position: 0 100%;
+  transition: background-position 0.3s ease;
+  cursor: pointer;
+  color: var(--white);
+}
+
+.portfolio-div:hover {
+  background-position: 0 0;
+  color: var(--white);
+}
+
+.project-div {
+  height: 200px;
+  width: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.3s all ease;
+  margin: 2rem 3rem;
+  margin-left: 0;
+}
+
+.project-div:hover {
+  width: 430px;
+}
+
+/* ? contacts */
+.contact {
+  align-items: center;
+}
+.contact .navs p {
+  padding: 0 3rem;
+}
+
+.contact .navs p:hover {
+  color: var(--primary_color);
+  cursor: pointer;
+}
+
+footer .icon {
+  margin-top: 2rem;
+  color: var(--white);
+  padding: 0 2rem;
+  font-size: 32px;
+}
+footer {
+  margin-top: 2rem;
+}
+footer .icon:hover {
+  cursor: pointer;
+  color: var(--);
+}
+
+.line {
+  border: 1px solid var(--primary_color);
+  width: 100%;
+  margin-bottom: 1rem;
+}

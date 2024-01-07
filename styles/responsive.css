@@ -1,0 +1,43 @@
+/* ? mobile screen */
+
+@media screen and (max-width: 480px) {
+  #skillGraph {
+    margin-top: 2rem;
+    height: 200px;
+    width: 200px;
+  }
+  .contact .navs {
+    flex-direction: column;
+  }
+}
+
+/* ? tab screen */
+@media screen and (max-width: 768px) {
+  nav li p {
+    font-size: 0.9rem;
+  }
+  .hero .image-holder {
+    display: none;
+  }
+  .page_padding {
+    padding: 0 10vw;
+  }
+  .skills .skills-desc {
+    flex-direction: column-reverse;
+  }
+
+  .skills .skillsHolder .skill-div {
+    flex-grow: 1;
+  }
+  .portfolio-div {
+    flex-grow: 1;
+  }
+  #skillGraph {
+    margin-top: 2rem;
+    height: 300px;
+    width: 300px;
+  }
+  .contact .navs p {
+    padding: 0 2rem;
+  }
+}

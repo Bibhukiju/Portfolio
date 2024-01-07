@@ -1,215 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bibhu kiju</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-  <link rel="stylesheet" href="./css/style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="mediaq.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/utils.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-<body>
-  <header>
-    <div class="container">
-      <nav class="flex items-center justify-between">
-        <div class="left flex items-center">
-          <div class="branding"></div>
-          <div>
-            <a href="#">Home</a>
-            <a href="#abt">About</a>
-            <a href="#serve">Services</a>
-            <a href="#skill">Skills</a>
-          </div>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Bibhu Kiju</title>
+  </head>
+  <body>
+    <nav class="flex">
+      <a href="#hero">
+        <li>
+          <p>Home</p>
+        </li>
+      </a>
+      <a href="#skills">
+        <li>
+          <p>Skills</p>
+        </li>
+      </a>
+      <a href="#portfolio">
+        <li>
+          <p>Portfolio</p>
+        </li>
+      </a>
+      <li>
+        <p>Contact</p>
+      </li>
+    </nav>
+    <div class="hero flex wrap page_padding" id="hero">
+      <div class="image-holder flex">
+        <img
+          src="https://cdn.truelancer.com/user-picture/1266576-604baa8886d07.jpg"
+          alt=""
+        />
+      </div>
+      <div class="hero-details flex-col">
+        <div>
+          <div class="hero-hello sub-heading test-border"><p>Hello</p></div>
         </div>
-        <div class="right">
-          <button class="btn btn-primary">Contact</button>
+        <h1 class="hero-name">Bibhu Kiju</h1>
+        <h3 class="hero-position">Full stack developer</h3>
+        <p class="hero-description">
+          <span class="primary-text">Hello there!</span> I'm Bibhu Kiju, a
+          passionate Flutter and React developer with a knack for crafting
+          seamless and captivating user experiences. Proficient in Node.js, I
+          love exploring the endless possibilities that technology offers
+        </p>
+        <div class="flex hero-social_links">
+          <a href="https://www.facebook.com/Bibhukiju">
+            <i class="fa fa-facebook hero-info--icon fb"></i>
+          </a>
+          <a href="https://github.com/Bibhukiju" target="_blank">
+            <i class="fa fa-github hero-info--icon github"></i>
+          </a>
+          <i class="fa fa-linkedin hero-info--icon linkedIn"></i>
         </div>
-      </nav>
-      <div class="hero flex items-center justify-between">
-        <div class="left flex-1 justify-center">
-          <img src="./images/face.jpg" alt="" />
-        </div>
-        <div class="right flex-1">
-          <h6>Bibhu Kiju</h6>
-          <h1>Hello <span>World!</span></h1>
+      </div>
+    </div>
+    <div class="skills page_padding" id="skills">
+      <h1 class="sub-heading">Skill<span class="primary-text">s</span></h1>
+      <div class="skillsHolder flex wrap"></div>
+      <div class="skills-desc flex wrap">
+        <div class="skills-desc--content">
           <p>
-            I am a ever-learner who always believes on learning and sharing I
-            enjoy to learn new tech stuffs and ready to dive into depth if i
-            ever started and want to explore tech stuff more. Despite of
-            working alone I love to work by collaborating with team
+            In the realm of mobile app development, my proficiency lies in
+            Flutter, where I employ the Clean Architecture design pattern to
+            ensure modular and maintainable code. With a focus on state
+            management, I leverage the power of Flutter Bloc to efficiently
+            handle application state and seamlessly integrate APIs for robust
+            functionality.
           </p>
-          <div><button class="btn btn-secondary">Download CV</button></div>
+          <p>
+            On the web development front, my expertise extends to React, where I
+            excel in API integration and harness the power of React Hooks such
+            as useEffect, useState, and useContext to build dynamic and
+            responsive user interfaces. I bring a keen eye for detail and user
+            experience to every React project.
+          </p>
+          <p>
+            In the server-side domain, I navigate the world of Node.js with
+            finesse. I specialize in crafting RESTful APIs, employing TypeScript
+            to enhance code quality and maintainability. Authentication
+            mechanisms in the Express library are second nature to me, ensuring
+            secure communication between clients and servers. Additionally, my
+            foundational knowledge of databases includes working with both
+            PostgreSQL and MySQL.
+          </p>
+          <p>
+            When crafting applications, I lean towards TypeScript over
+            JavaScript for React and Node projects. This preference not only
+            enhances code readability but also facilitates a more robust and
+            maintainable codebase. My skills encompass the entire development
+            lifecycle, ensuring seamless and scalable solutions across various
+            technology stacks.
+          </p>
+        </div>
+        <div class="sizedbox"></div>
+        <div class="skills-desc--chart flex">
+          <canvas id="skillGraph"></canvas>
         </div>
       </div>
     </div>
-  </header>
-  <section class="about" id="abt">
-    <div class="container flex items-center">
-      <div class="flex-1">
-        <img class="about-me-img" src="./images/itsme0.jpg" alt="" />
-      </div>
-      <div class="flex-1">
-        <h1>About <span>Me</span></h1>
-
-        <h3><span>Hello World!</span>, I am Bibhu Kiju</h3>
-        <p>
-          I am a ever-learner who always believes on learning and sharing I
-          enjoy to learn new tech stuffs and ready to dive into depth if i
-          ever started and want to explore tech stuff more. Despite of
-          working alone I love to work by collaborating with team
-        </p>
-        <p>
-          Currently studying BACHELOR OF SCIENCE IN COMPUTER SCIENCE AND
-          INFORMATION TECHNOLOGY
-          3rd semester (running)
-        </p>
-        <div class="social justify-center">
-          <a href="https://facebook.com/itsbibhu"><i class="fa fa-facebook"></i></a>
-          <a href="#"><i class="fa fa-twitter"></i></a>
-          <a href="#"><i class="fa fa-instagram"></i></a>
-        </div>
-      </div>
+    <div class="portfolio page_padding" id="portfolio">
+      <h1 class="page_title"><span class="primary-text">Port</span>folio</h1>
+      <div class="tabBar flex wrap"></div>
+      <div class="projects-holder flex wrap"></div>
     </div>
-  </section>
-  <section class="services" id="serve">
-    <div class="container">
-      <h1 class="section-heading"><span>My</span> services</h1>
-      <p>
-        I provide high standard clean ui and architecture Flutter app to your
-        business solutios.
-      </p>
-      <div class="card-wrapper">
-        <div class="card">
-          <img src="./images/flutterlogo.png" alt="" />
-          <h2>Flutter</h2>
-          <p>Clean crossplatform app using flutter Framework</p>
-        </div>
-        <div class="card">
-          <img src="./images/html.jpg" alt="" />
-          <h2>Web development</h2>
-          <p>Clean UI frontend website with clear documentation</p>
-        </div>
-      </div>
-  </section>
-  <section class="avail">
-    <h1>
-      I am available for a job !
-    </h1>
-    <p>I can asure you with timely, well developed,clean archetecture and UI flutter app</p>
-    <a href="./Resume.pdfx" download=""><button class="btn btn-primary">Download CV</button></a>
-  </section>
-  <section class="skills" id="skill">
-    <div class="container">
-      <h1 class="section-heading">
-        <span>My </span>Projects
+    <footer class="page_padding contact flex-col">
+      <div class="line"></div>
+      <h1 class="page_title">
+        B<span class="primary-text">i</span>bh<span class="primary-text"
+          >u</span
+        >
       </h1>
-      <p>Some of my projects using Flutter</p>
-      <div class="slider">
-        <div class="slide">
-          <h1> <span>Minista(Flutter)</span></h1>
-          <h2>
-            Features
-          </h2>
-          <li>
-            Google authentication for login and logout.
-          </li>
-          <li>Users can post Image with caption and Auto detected location</li>
-          <li>
-            Users can follow other users to get their activity in the newsfeed.
-          </li>
-          <li>User can like others photo an also can comment on it
-          </li>
-          <li>
-            Notify the user if any other user likes or commented on his/her post
-          </li>
-          <li>
-            Users can also delete his/her post
-          </li>
-        </div>
-        <div class="slide">
-          <img src="./images/html.jpg" alt="">
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam dolores hic, optio maxime inventore quos pariatur quidem dignissimos, incidunt esse ad similique dolorum adipisci corrupti nihil eveniet nesciunt libero expedita!</p>
-          <span>Minista(Flutter)</span>
-        </div>
+      <div class="navs flex">
+        <p>Home</p>
+        <p>Skills</p>
+        <p>Portfolio</p>
+        <p>Contact</p>
       </div>
-      <div class="slider-dots"></div>
-    </div>
-  </section>
-  <section class="contact">
-    <div class="section-heading">
-      <h1><span>Contact</span> Me</h1>
-    </div>
-    <p>For Clean flutter apps and web-development (front-end)</p>
-    <div class="card-wrapper">
-      <div class="card">
-        <i class="fa fa-phone"></i>
-        <h2>call me on </h2>
-        <h6>+977 9863849224</h6>
+      <div class="flex">
+        <i class="fa fa-facebook icon"> </i>
+        <i class="fa fa-github icon"> </i>
+        <i class="fa fa-linkedin icon"></i>
       </div>
-      <div class="card">
-        <i class="fa fa-envelope"></i>
-        <h2>email me on </h2>
-        <h6>bibhukiju@gmail.com</h6>
-      </div>
-      <div class="card">
-        <i class="fa fa-map"></i>
-        <h2>Address</h2>
-        <h6>Suryabinayak,bhaktapur</h6>
-        <h6>Nepal</h6>
-      </div>
-    </div>
-    <form action="index.php" method="POST">
-      <div class="input-wrap">
-        <input type="text" placeholder="Yourname" name="name">
-        <input type="email" placeholder="your email" name="email">
-      </div>
-      <div class="input-wrap-2">
-        <input type="text" placeholder="your subject" name="subject">
-        <textarea name="message" id="" cols="30" rows="10" placeholder="your message"></textarea>
-      </div>
-      <div class="btn-wrapper">
-        <input type="submit" class="btn btn-primary" name="send" value="Send Message">
-      </div>
-    </form>
-  </section>
-  <footer>
-    <h1>Bibhu Kiju</h1>
-    <div class="footer-socials justify-center">
-
-      <a href="#">
-        <i class="fa fa-home"></i>
-      </a>
-      <a href="https://www.facebook.com/itsbibhu">
-        <i class="fa fa-facebook"></i>
-      </a>
-      <a href="https://twitter.com/BibhuKiju">
-        <i class="fa fa-twitter"></i>
-      </a>
-      <a href="https://www.instagram.com/bibhu_kiju/">
-        <i class="fa fa-instagram"></i>
-      </a>
-      <a href="https://www.github.com/bibhukiju"><i class="fa fa-github"></i></a>
-    </div>
-  </footer>
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  <script src="./js/app.js"></script>
-</body>
-
-</html>   
-<?php
-if (isset($_POST['send'])) {
-  $name = $_POST['name'];
-  $email = $_POST['email'];
-  $subject = $_POST['subject'];
-  $message = $_POST['message'];
-  $connection = mysqli_connect("localhost", "root", "", "messages");
-  $qry = "INSERT INTO message(name,email,subject,message)VALUES('$name','$email','$subject','$message')";
-  $result = mysqli_query($connection, $qry);
-}
-?>
+    </footer>
+  </body>
+  <script src="./js/index.js"></script>
+</html>
